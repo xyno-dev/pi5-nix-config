@@ -20,9 +20,6 @@
   boot.loader.grub.device = "nodev";
   boot.loader.grub.efiSupport = true;
   boot.loader.grub.efiInstallAsRemovable = true;
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-  # networking.wireless.userControlled.enable = true;
-  # networking.wireless.networks."TNCAP255C23".pskRaw = "00493ce4c107daa9cf151dd23ac56aab82137fd06eb297c799e7a31fa5db84d9";
   users.extraUsers.root.extraGroups = [ "wheel" "docker" ];
 
   users.users.zayan = {
